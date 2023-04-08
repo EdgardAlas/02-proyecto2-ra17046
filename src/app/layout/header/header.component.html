@@ -1,0 +1,102 @@
+<div class="banner fixed-top"></div>
+
+<div class="bg-dark">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="['']">
+          <img src="30%" alt="Diplomado" [src]="logo" /> Diplomado
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Directivas
+              </a>
+              <ul class="dropdown-menu">
+                <li routerLinkActive="active">
+                  <a class="dropdown-item" [routerLink]="['directivas/ngIf']"
+                    >NgIf</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/ngFor']"
+                    >NgFor</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/ngSwitch']"
+                    >NgSwitch</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/binding']"
+                    >BingDing</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/ngStyle']"
+                    >BingStyle</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/ngClass']"
+                    >NgClass</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['directivas/ngModel']"
+                    >NgModel</a
+                  >
+                </li>
+                <li routerLinkActive="active">
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    [routerLink]="['mascotas/listar']"
+                    >Listar Mascotas</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>

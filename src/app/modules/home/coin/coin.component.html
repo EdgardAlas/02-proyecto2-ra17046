@@ -1,0 +1,31 @@
+<div class="card" style="width: 18rem" *ngIf="coin; else Error">
+  <div class="text-center pt-4">
+    <img
+      [src]="coin.image"
+      alt=""
+      style="max-width: 60px; text-align: center"
+    />
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">
+      {{ coin.name }}
+    </h5>
+    <p>{{ coin.symbol }}</p>
+    <p>{{ coin.current_price | currency }}</p>
+    <p
+      [ngClass]="
+        (coin.price_change_percentage_24h || 0) > 0
+          ? 'text-success'
+          : 'text-danger'
+      "
+    >
+      {{ coin.price_change_percentage_24h }}
+    </p>
+  </div>
+</div>
+
+<ng-template #Error>
+  <div class="card py-4" style="width: 18rem">
+    <h5 class="card-title">Hubo un error al cargar la informacion</h5>
+  </div>
+</ng-template>

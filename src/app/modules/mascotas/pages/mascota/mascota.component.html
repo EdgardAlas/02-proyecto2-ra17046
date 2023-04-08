@@ -1,0 +1,37 @@
+<div class="d-flex p-2 m-5"></div>
+<div class="container">
+  <ng-container *ngIf="!mascota; else divMascota">
+    <div class="alert alert-warning" role="alert">
+      No hay datos para mostrar
+    </div>
+  </ng-container>
+  <ng-template #divMascota>
+    <div class="flex-row flex-xs-column">
+      <div class="row">
+        <div class="col col-sm-6">
+          <h1>
+            <strong>Raza: {{ mascota.raza }}</strong>
+            <small> / de {{ mascota.origen }}</small>
+          </h1>
+          <br />
+          <img [src]="mascota.img" alt="" class="img" />
+        </div>
+        <div class="col col-sm-6">
+          <h1>
+            {{ mascota.peso }}
+            <small> / Guardian: {{ mascota.guardian }} </small>
+          </h1>
+          <br />
+          <p>{{ mascota.des }}</p>
+          <p>{{ mascota.salud }}</p>
+          <p>{{ mascota.ejercicio }}</p>
+          <p>{{ mascota.nutricion }}</p>
+          <br />
+          <button class="btn btn-success m-2" (click)="regresar()">
+            <i class="bi bi-backspace"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

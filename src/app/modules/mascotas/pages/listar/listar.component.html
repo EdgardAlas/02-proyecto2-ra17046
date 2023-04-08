@@ -1,0 +1,21 @@
+<div class="d-flex p-2 m-5"></div>
+<div class="container pb-5">
+  <hr />
+  <input
+    type="text"
+    class="form-control"
+    placeholder="buscar carta"
+    [(ngModel)]="parametroBuscar"
+    (keyup.enter)="buscar()"
+  />
+
+  <hr />
+
+  <div
+    class="row row-cols-1 row-cols-md-3 row-cols-xl-5 justify-content-center"
+  >
+    <ng-container *ngFor="let item of mascotas">
+      <app-card [obj]="item"></app-card>
+    </ng-container>
+  </div>
+</div>

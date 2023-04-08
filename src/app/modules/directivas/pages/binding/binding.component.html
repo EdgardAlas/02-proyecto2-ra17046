@@ -1,0 +1,27 @@
+<div class="container mt-5">
+  <p>Binding-Property works!</p>
+  <hr />
+  <input
+    type="text"
+    class="form-control"
+    [placeholder]="txtPlaceholder"
+    [disabled]="habilitar"
+  />
+  <br />
+  <input [type]="txtType" class="form-check-input" [checked]="isChecked" />
+  <hr />
+  <button type="button" [class]="clases" [disabled]="habilitar">
+    Disabled button
+  </button>
+
+  <div class="form-check form-switch mt-3">
+    <input
+      type="checkbox"
+      class="form-check-input"
+      role="switch"
+      id="flexSwitchCheckDefault"
+      (click)="cambiarPropiedad()"
+    />
+    <label for="form-check-label" form="flexSwitchCheckDefault"> Estado </label>
+  </div>
+</div>
