@@ -8,6 +8,7 @@ import { HomeComponent } from '@modules/home/pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NgIfComponent } from '@modules/directivas/pages/ng-if/ng-if.component';
+import { PipesComponent } from '@modules/directivas/pages/pipes/pipes.component';
 
 const routes: Routes = [
   {
@@ -49,6 +50,11 @@ const routes: Routes = [
     path: 'ngModel',
     component: NgModelComponent,
     title: 'NGMODEL',
+  },
+  {
+    path: 'pipes',
+    component: PipesComponent,
+    title: 'PIPES',
   },
 ];
 

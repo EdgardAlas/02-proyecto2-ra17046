@@ -1,0 +1,50 @@
+<div class="container mt-5 pb-5">
+  <h2>Pipes para formatos de monedas</h2>
+  <ul>
+    <li>USD: {{ 1234.5 | currency : "USD" }}</li>
+    <li>EUR: {{ 1234.5 | currency : "EUR" }}</li>
+    <li>ARS: {{ 1234.5 | currency : "ARS" }}</li>
+    <li>MXN: {{ 1234.5 | currency : "MXN" }}</li>
+  </ul>
+
+  <h2>Pipes para fechas</h2>
+  <ul>
+    <li>Fecha: {{ fecha | date : "dd/MM/yyyy" }}</li>
+    <li>Fecha: {{ fecha | date : "dd/MM/yyyy HH:mm:ss" }}</li>
+    <li>Fecha: {{ fecha | date : "EEEE dd, MMMM yyyy" }}</li>
+    <li>Fecha: {{ fecha | date : "EEEE dd, MMMM yyyy HH:mm:ss" }}</li>
+  </ul>
+
+  <h2>Pipes para porcentajes</h2>
+  <ul>
+    <li>0.25: {{ 0.25 | percent }}</li>
+    <li>0.25: {{ 0.25 | percent : "1.2-2" }}</li>
+  </ul>
+
+  <h2>Pipes para decimales</h2>
+  <ul>
+    <li>0.25: {{ 0.25 | number }}</li>
+    <li>0.25: {{ 0.25 | number : "1.2-2" }}</li>
+    <li>0.25: {{ 0.25 | number : "3.4-5" }}</li>
+    <li>0.25: {{ 0.25 | number : "3.1-2" }}</li>
+  </ul>
+
+  <h2>Pipes para texto</h2>
+  <ul>
+    <li>Texto: {{ texto | uppercase }}</li>
+    <li>Texto: {{ texto | lowercase }}</li>
+    <li>Texto: {{ texto | slice : 0 : 10 }}</li>
+    <li>Texto: {{ texto | slice : 0 : 10 | uppercase }}</li>
+  </ul>
+
+  <h2>Pipes para JSON</h2>
+  <ul>
+    <li>Objeto: {{ objeto | json }}</li>
+  </ul>
+
+  <h2>Pipes para promesas</h2>
+  <h3 class="h6">La promesa de ejemplo se resuelve pasados 2 segundos</h3>
+  <ul>
+    <li>Promise: {{ promesa | async }}</li>
+  </ul>
+</div>

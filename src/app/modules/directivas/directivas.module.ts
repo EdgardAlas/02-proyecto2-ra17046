@@ -10,6 +10,7 @@ import { NgStyleComponent } from './pages/ng-style/ng-style.component';
 import { NgClassComponent } from './pages/ng-class/ng-class.component';
 import { NgModelComponent } from './pages/ng-model/ng-model.component';
 import { FormsModule } from '@angular/forms';
+import { PipesComponent } from './pages/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     NgStyleComponent,
     NgClassComponent,
     NgModelComponent,
+    PipesComponent,
   ],
   imports: [CommonModule, DirectivasRoutingModule, FormsModule],
 })
