@@ -1,7 +1,8 @@
 import Swal from 'sweetalert2';
 import { IMascota } from './../../interface/mascotas.interface';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { MascotasService } from '@modules/mascotas/services/mascotas.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-listar',
@@ -16,7 +17,10 @@ export class ListarComponent implements OnInit {
   datosM: string[] = [];
   datos: any[] = ['Usuario1', 30, true, "{'salario': 200}"];
 
-  constructor(private mascotasService: MascotasService) {}
+  constructor(
+    private mascotasService: MascotasService,
+    private toastService: ToastrService
+  ) {}
 
   ngOnInit(): void {
     this.loadMascotas();
@@ -59,6 +63,12 @@ export class ListarComponent implements OnInit {
       cancelButtonText: 'Cancelar',
     }).then((result) => {
       if (result.isConfirmed) {
+        // Swal.fire('Eliminado!', 'La mascota ha sido eliminada.', 'success');
+        this.toastService.success(
+          'Eliminado!',
+          'La mascota ha sido eliminada.'
+        );
+
         this.loadMascotas();
       }
     });
