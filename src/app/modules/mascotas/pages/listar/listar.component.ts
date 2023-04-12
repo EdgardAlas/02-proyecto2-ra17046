@@ -12,10 +12,31 @@ export class ListarComponent implements OnInit {
   mascotas: IMascota[] = [];
   parametroBuscar = '';
 
+  mascotasP: any[] = [];
+  datosM: string[] = [];
+  datos: any[] = ['Usuario1', 30, true, "{'salario': 200}"];
+
   constructor(private mascotasService: MascotasService) {}
 
   ngOnInit(): void {
     this.loadMascotas();
+    this.mostar();
+  }
+
+  mostar() {
+    this.datos.forEach((element) => {
+      console.log('El foreach', element);
+    });
+
+    console.log('**************');
+
+    for (const key in this.datos) {
+      console.log('llaves', key);
+    }
+
+    for (const iterator of this.datos) {
+      console.log(iterator);
+    }
   }
 
   buscar() {
@@ -49,6 +70,19 @@ export class ListarComponent implements OnInit {
     // });
 
     const data = await this.mascotasService.obtenerAll();
+    data.forEach((element) => {
+      this.mascotasP.push(element);
+      this.datosM.push(JSON.stringify(element));
+    });
+
+    console.log(this.mascotasP);
+    console.log(this.datosM);
+    let jsonArray = JSON.parse(this.datosM[0]);
+    console.log(jsonArray);
+
+    for (const key in jsonArray) {
+      console.log('llaves', key, jsonArray[key]);
+    }
     this.mascotas = data;
   }
 }

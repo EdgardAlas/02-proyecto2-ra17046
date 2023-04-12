@@ -18,91 +18,95 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Directivas
-              </a>
-              <ul class="dropdown-menu">
-                <li routerLinkActive="active">
-                  <a class="dropdown-item" [routerLink]="['directivas/ngIf']"
-                    >NgIf</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/ngFor']"
-                    >NgFor</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/ngSwitch']"
-                    >NgSwitch</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/binding']"
-                    >BingDing</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/ngStyle']"
-                    >BingStyle</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/ngClass']"
-                    >NgClass</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/ngModel']"
-                    >NgModel</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="['directivas/pipes']"
-                    >Pipes</a
-                  >
-                </li>
-                <li routerLinkActive="active">
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    [routerLink]="[pets + '/listar']"
-                    >Listar Mascotas</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div class="d-flex">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Directivas
+                </a>
+                <ul class="dropdown-menu">
+                  <li routerLinkActive="active">
+                    <a class="dropdown-item" [routerLink]="['directivas/ngIf']"
+                      >NgIf</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/ngFor']"
+                      >NgFor</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/ngSwitch']"
+                      >NgSwitch</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/binding']"
+                      >BingDing</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/ngStyle']"
+                      >BingStyle</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/ngClass']"
+                      >NgClass</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/ngModel']"
+                      >NgModel</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      [routerLink]="['directivas/pipes']"
+                      >Pipes</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" [routerLink]="[pets + '/listar']"
+                  >Listar Mascotas</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
