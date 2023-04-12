@@ -1,3 +1,4 @@
+import { API_PETS } from './constants/routes/routes';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SkeletonComponent } from '@layout/skeleton/skeleton.component';
@@ -21,7 +22,7 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'mascotas',
+        path: API_PETS,
         loadChildren: () =>
           import('@modules/mascotas/mascotas.module').then(
             (m) => m.MascotasModule

@@ -1,5 +1,5 @@
 <div class="d-flex p-2 m-2">
-  <div class="card" style="width: 15rem">
+  <div class="card">
     <img [src]="obj.img" alt="" class="card-img-top col-img" />
     <div class="card-body">
       <h5 class="card-title">{{ obj.raza }}</h5>
@@ -8,9 +8,14 @@
       </p>
       <p class="card=text"><strong>Peso </strong> {{ obj.peso }}</p>
       <p class="card=text"><strong>Guardian </strong> {{ obj.guardian }}</p>
-      <a [routerLink]="['/mascotas/', obj.id]" class="btn btn-primary"
-        >Leer mas</a
-      >
+      <div class="d-flex gap-2 flex-wrap">
+        <a [routerLink]="['/' + pets + '/', obj.id]" class="btn btn-primary"
+          >Leer mas</a
+        >
+        <button class="btn btn-danger" (click)="eliminarMascota(obj.id)">
+          Eliminar
+        </button>
+      </div>
     </div>
   </div>
 </div>

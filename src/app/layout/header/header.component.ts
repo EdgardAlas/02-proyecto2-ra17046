@@ -1,3 +1,4 @@
+import { API_PETS } from './../../constants/routes/routes';
 import { Component, OnInit } from '@angular/core';
 import { LOGO } from '@constants/routes/constants';
 
@@ -8,6 +9,7 @@ import { LOGO } from '@constants/routes/constants';
 })
 export class HeaderComponent implements OnInit {
   logo = LOGO;
+  pets = API_PETS;
 
   constructor() {}
 

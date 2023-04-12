@@ -1,0 +1,136 @@
+{
+  "mascotas": [
+    {
+      "id": 1,
+      "raza": "Basenji",
+      "des": "Este perro de tamaño pequeño-mediano tiene una cola muy curvada y la frente arrugada. El pelaje es brillante, corto y suave y puede ser rojo y blanco, negro y blanco, negro, canela y blanco, tricolor o con muchos colores mezclados",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630303771/canes/basenji_r_mdb4oy.png",
+      "origen": "África",
+      "peso": "11kg",
+      "guardian": "No",
+      "salud": "Las enfermedades heredadas más conocidas en los basenjis son un tipo de enfermedad renal (síndrome de Fanconi) y una clase de anemia. Hay pruebas genéticas para ambas dolencias. Al igual que en muchas otras razas, pueden aparecer trastornos oculares.",
+      "ejercicio": "Criado para cazar en terrenos difíciles, el basenji necesita, como mínimo, una hora diaria de ejercicio y puede resistir más si se lo puedes ofrecer. Aunque no es fácil de adiestrar, es aconsejable hacer participar al basenji en algún tipo de deporte canino para mantener el cuerpo y la mente sanos. Desconocen lo que es una carretera y les cuesta orientarse en ella, por lo que hay que tomar precauciones cuando se ejercite cerca del tráfico.",
+      "nutricion": "Los perros pequeños tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Con un estómago tan pequeño, esto implica que deben comer poco pero a menudo."
+    },
+    {
+      "id": 3,
+      "raza": "Pastor de Antolia",
+      "des": "Es un perro enorme similar al mastín con una fuere constitución. Es una raza antigua que desciende del Mastín y de otros perros pastores de Oriente Medio. Altos, atléticos y fuertes, protegían a sus rebaños de depredadores tan feroces como los osos y los lobo",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662619/canes/pastorDeAnatolia_icq4uq.png",
+      "origen": "Medio Oriente",
+      "peso": "59kg",
+      "guardian": "Si",
+      "salud": "La del pastor de Anatolia es, en general una raza resistente, pero, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por lo tanto, es importante hacer un examen de la cadera de los perros antes de dedicarlos a la crianza.",
+      "ejercicio": "Para su tamaño, no necesita mucho ejercicio; un paseo diario de dos horas lo mantendrá feliz. Le encanta caminar, ya que sus antepasados trabajadores recorrieron muchísimos kilómetros con los pastores nómadas.",
+      "nutricion": "Los perros de raza gigante, además de tener un apetito enorme, requieren una proporción de minerales y vitaminas diferente que necesita para el buen mantenimiento de las diferentes articulaciones y cartílagos. El pastor de Anatolia es propenso a sufrir distensión del estómago y otros problemas estomacales; unas comidas más reducidas y frecuentes podrían minimizar el riesgo."
+    },
+    {
+      "id": 4,
+      "raza": "Pastor Ganadero",
+      "des": "Este perro compacto y musculoso de tamaño medio.El pastor ganadero australiano es cauto con los desconocidos por naturaleza y tiene unos fuertes instintos protectores, por lo que es especialmente importante socialización una completa y temprana.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662620/canes/pastorGanadero_et1lih.png",
+      "origen": "Australia",
+      "peso": "17kg",
+      "guardian": "Si",
+      "salud": "La del pastor ganadero australiano es, en general, una raza sumamente resistente con pocos problemas de salud. Al igual que muchas otras razas, a veces, puede sufrir trastornos oculares hereditarios y displasia de cadera (una enfermedad que puede provocarle problemas de movilidad). Por tanto, se recomienda un examen de la cadera y de los ojos antes de dedicar al perro a la crianza.",
+      "ejercicio": "Necesita aproximadamente una hora de ejercicio al día, aunque felizmente aceptará más horas. Además, tiene una gran resistencia y aguante. Ten en cuenta que es muy ágil y salta grandes alturas, lo cual le permite robar comida de mostradores o bancos y saltar vallas de jardín. No dejes que se aburra o se buscará la diversión él solito.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición. Es importante realizar comprobaciones regulares para mantener al perro en perfecta forma y recuerda darle de comer dos veces al día siguiendo las pautas de alimentación de su alimento específico."
+    },
+    {
+      "id": 5,
+      "raza": "Silky Terrier",
+      "des": "El pelaje largo y glamuroso de este perro tipo toy está dividido en el lomo y puede presentarse en azul y canela, gris azulado y canela, plata y canela o plata azulada y canela.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662620/canes/silkyTerrier_zsbc5p.png",
+      "origen": "Australia",
+      "peso": "4.5kg",
+      "guardian": "NO",
+      "salud": "Como ocurre con muchas razas pequeñas, el terrier sedoso australiano puede padecer desplazamientos temporales de la rótula (luxaciones de rótula), problemas de cadera y de tráquea.",
+      "ejercicio": "Un par de paseos de 20 minutos al día mantendrá feliz al perro adulto, junto con algún rato de juegos dentro de casa o en el jardín. No necesita mucho ejercicio físico, pero se desarrollará mejor si pasa tiempo de calidad con sus seres queridos.",
+      "nutricion": "Los perros de compañía tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo."
+    },
+    {
+      "id": 6,
+      "raza": "Chihuahua",
+      "des": "Son los perros más pequeños que hay, su cráneo tiene forma de manzana y el pelo es suave, fino y corto.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662624/canes/chihuahua_ifkbj2.png",
+      "origen": "México",
+      "peso": "2.7kg",
+      "guardian": "NO",
+      "salud": "Como ocurre con muchas razas pequeñas, el chihuahua puede padecer desplazamientos temporales de la rótula (luxaciones de rótula) y problemas de tráquea. La forma de la cabeza hace que tiendan a sufrir hidrocefalias (agua en el cerebro) y ciertos trastornos oculares.",
+      "ejercicio": "El chihuahua de pelo largo se adapta a la cantidad de ejercicio que se le ofrezca, siempre con moderación. Suelen ser muy energéticos y se emocionan mucho al jugar, pero no necesitan paseos largos; bastará con media hora al día. Se recomienda llevar al chihuahua con arnés en lugar de correa por la fragilidad de su tráquea.",
+      "nutricion": "Los perros de compañía tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo."
+    },
+    {
+      "id": 7,
+      "raza": "Pinscher",
+      "des": "Es un perro elegante, fuerte y musculoso con un pelaje corto y suave de color rojo, marrón, negro y canela y azul y canela.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662620/canes/pinscherAleman_iio50k.png",
+      "origen": "Alemania",
+      "peso": "16kg",
+      "guardian": "Si",
+      "salud": "Al igual que muchas otras razas, el pinscher alemán puede sufrir problemas oculares hereditarios y displasia de cadera (una enfermedad que puede provocar problemas de movilidad)",
+      "ejercicio": "Necesitará una hora de ejercicio diario, aunque aceptará encantado más ejercicio si puedes ofrecérselo. También le gustarán las pruebas de agilidad, obediencia y rastreo, así como otros deportes caninos.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición."
+    },
+    {
+      "id": 8,
+      "raza": "Chow Chow",
+      "des": "El Chow chow de pelo duro es un perro pequeño, compacto y cuadrado. Su cola se curva sobre el lomo. La parte interior de la boca y la lengua son de color azul/negro. Puede tener dos tipos de pelaje, duro o suave, y una amplia variedad de tonos (negro, rojizo, azul, beis, crema o blanco).",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630307326/canes/chowChow_r_edj52t.png",
+      "origen": "Mongolia",
+      "peso": "25kg",
+      "guardian": "No",
+      "salud": "Los problemas de salud más comunes del chow chow son la displasia de codo y los problemas en los párpados. Al igual que muchas otras razas, pueden sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad).",
+      "ejercicio": "El chow chow no necesita una gran cantidad de ejercicio, le basta con una hora diaria, pero prefiere estar en el exterior y vivirá feliz a su aire en el jardín. Aun así, deberá tener una zona fresca con sombra donde resguardarse del frío o de las altas temperaturas. Si hacen demasiado ejercicio de jóvenes, pueden sufrir problemas de huesos y articulaciones a la edad adulta, así que debe controlarse bien el ejercicio que realicen.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición."
+    },
+    {
+      "id": 9,
+      "raza": "Afgano",
+      "des": "El Afgano es un perro de aspecto noble que luce con orgullo y elegancia su largo y brillante pelaje, que es su mayor atractivo. Su magnífico pelaje puede ser de cualquier color, desde negro a plateado, pasando por todos los colores y combinaciones posibles.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630303771/canes/afgano_r_kpogex.png",
+      "origen": "Afganistán",
+      "peso": "25kg",
+      "guardian": "No",
+      "salud": "El afgano es una raza sana y robusta en general con pocos problemas específicos que sean frecuentes.",
+      "ejercicio": "Un afgano adulto necesita mucho ejercicio (preferentemente, unas dos horas al día o más). Le encanta correr libre, pero, debido a su tendencia a perseguir y cazar, primero asegúrate de que responderá a tu llamada y suéltalo solo en áreas seguras, lejos de peligros como el tráfico.",
+      "nutricion": "Un afgano adulto necesita mucho ejercicio (preferentemente, unas dos horas al día o más). Le encanta correr libre, pero, debido a su tendencia a perseguir y cazar, primero asegúrate de que responderá a tu llamada y suéltalo solo en áreas seguras, lejos de peligros como el tráfico."
+    },
+    {
+      "id": 10,
+      "raza": "Bóxer",
+      "des": "El Bóxer es un perro de tamaño mediano, musculoso, robusto y ancho de pecho. Tiene un morro corto y un mentón ligeramente curvado hacia arriba. El color del pelaje corto puede ser marrón y atigrado, normalmente con algunas marcas blancas.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662622/canes/boxer_jjpoyj.png",
+      "origen": "Alemania",
+      "peso": "30kg",
+      "guardian": "Si",
+      "salud": "Los bóxers están predispuestos a diferentes enfermedades potencialmente graves, es especial, problemas cardíacos y cánceres. Comprobar que los perros de líneas que no hayan padecido estos problemas específicos de salud ayudará a reducir la probabilidad de que sufran estos trastornos.",
+      "ejercicio": "El bóxer es una raza con un gran nivel de energía, por lo que requiere mucho ejercicio: le encanta correr en espacios abiertos, salir detrás de una pelota o de frisbees. Se recomienda que se ejerciten durante dos horas o más al día.",
+      "nutricion": "Los perros de razas grandes, además de tener un gran apetito, requieren un equilibrio de nutrientes diferente, incluyendo los minerales y las vitaminas, al de los perros de menor tamaño."
+    },
+    {
+      "id": 11,
+      "raza": "King Charles Spaniel",
+      "des": "El King Charles es un perro compacto de constitución corta y maciza con un pelaje largo y sedoso que puede ser liso o ligeramente ondulado. El pelaje suele ser negro y fuego, tricolor (negro, blanco y fuego), blenheim (blanco y rojo) y rubí.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662623/canes/cavalier_bej8mv.png",
+      "origen": "Japonés",
+      "peso": "33kg",
+      "guardian": "Si",
+      "salud": "La siringomielia, un trastorno neurológico grave y doloroso, se ha documentado en algunos King Charles. Como muchas otras razas pequeñas, el King Charles puede sufrir la luxación de las rótulas y, si tiene la cara muy plana, puede tener también problemas respiratorios.",
+      "ejercicio": "Como es una raza pequeña, el King Charles no necesita mucho ejercicio: bastará con media hora de paseo al día, aunque aceptará más si se lo ofreces. Les encanta jugar con sus dueños y son perros inteligentes que también disfrutan del adiestramiento.",
+      "nutricion": "Los perros de compañía tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas."
+    },
+    {
+      "id": 12,
+      "raza": "Sabueso Bávaro de Montaña",
+      "des": "Este sabueso de tamaño medio y musculoso tiene una longitud levemente superior a su altura. Una raza que podía olfatear el olor frío de las presas heridas en zonas montañosas.",
+      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1635662619/canes/sabueso_wgvklq.png",
+      "origen": "Desconocida",
+      "peso": "20kg",
+      "guardian": "No",
+      "salud": "Al igual que muchas otras razas, el sabueso bávaro de montaña puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por lo tanto, es importante hacer un examen de la cadera de los perros antes de dedicarlos a la crianza.",
+      "ejercicio": "Creado para cazar presas heridas —a veces durante días, este perro es muy resistente y necesitará, como mínimo, dos horas al día o más de ejercicio. Es una raza de trabajo que disfrutará rastreando y con otros deportes caninos que le ejercitarán la mente, el cuerpo y el hocico.",
+      "nutricion": "La dieta de tu perro debe contener la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición"
+    }
+  ]
+}

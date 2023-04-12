@@ -13,6 +13,21 @@ export class MascotasService {
     return this.httpClient.get<IMascota[]>(environment.baseUrl + '/mascotas');
   }
 
+  obtenerAll(): Promise<IMascota[]> {
+    return new Promise((resolve, reject) => {
+      this.httpClient
+        .get<IMascota[]>(environment.baseUrl + '/mascotas')
+        .subscribe({
+          next: (data) => {
+            resolve(data);
+          },
+          error: (error) => {
+            reject(error);
+          },
+        });
+    });
+  }
+
   buscarMascota(parametro: string) {
     if (parametro.length > 1) {
       return this.httpClient.get<IMascota[]>(
@@ -26,5 +41,24 @@ export class MascotasService {
     return this.httpClient.get<IMascota>(
       environment.baseUrl + `/mascotas/${id}`
     );
+  }
+
+  buscarMascotaPromesaPorId(id: string): Promise<IMascota> {
+    return new Promise((resolve, reject) => {
+      this.httpClient
+        .get<IMascota>(environment.baseUrl + `/mascotas/${id}`)
+        .subscribe({
+          next: (data) => {
+            resolve(data);
+          },
+          error: (error) => {
+            reject(error);
+          },
+        });
+    });
+  }
+
+  eliminarMascota(id: number) {
+    return this.httpClient.delete(environment.baseUrl + `/mascotas/${id}`);
   }
 }
