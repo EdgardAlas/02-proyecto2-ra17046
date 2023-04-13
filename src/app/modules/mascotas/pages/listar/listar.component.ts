@@ -1,8 +1,7 @@
-import Swal from 'sweetalert2';
-import { IMascota } from './../../interface/mascotas.interface';
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MascotasService } from '@modules/mascotas/services/mascotas.service';
 import { ToastrService } from 'ngx-toastr';
+import { IMascota } from './../../interface/mascotas.interface';
 
 @Component({
   selector: 'app-listar',
@@ -52,26 +51,7 @@ export class ListarComponent implements OnInit {
   }
 
   onDelete() {
-    Swal.fire({
-      title: '¿Está seguro de eliminar la mascota?',
-      text: 'No podrá recuperar la información',
-      icon: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'Si, eliminar',
-      cancelButtonText: 'Cancelar',
-    }).then((result) => {
-      if (result.isConfirmed) {
-        // Swal.fire('Eliminado!', 'La mascota ha sido eliminada.', 'success');
-        this.toastService.success(
-          'Eliminado!',
-          'La mascota ha sido eliminada.'
-        );
-
-        this.loadMascotas();
-      }
-    });
+    this.loadMascotas();
   }
 
   async loadMascotas() {
