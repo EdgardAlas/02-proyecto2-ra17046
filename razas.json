@@ -1,18 +1,6 @@
 {
   "mascotas": [
     {
-      "id": 1,
-      "raza": "Basenji",
-      "des": "Este perro de tamaño pequeño-mediano tiene una cola muy curvada y la frente arrugada. El pelaje es brillante, corto y suave y puede ser rojo y blanco, negro y blanco, negro, canela y blanco, tricolor o con muchos colores mezclados",
-      "img": "https://res.cloudinary.com/dznipjpqz/image/upload/v1630303771/canes/basenji_r_mdb4oy.png",
-      "origen": "África",
-      "peso": "11kg",
-      "guardian": "No",
-      "salud": "Las enfermedades heredadas más conocidas en los basenjis son un tipo de enfermedad renal (síndrome de Fanconi) y una clase de anemia. Hay pruebas genéticas para ambas dolencias. Al igual que en muchas otras razas, pueden aparecer trastornos oculares.",
-      "ejercicio": "Criado para cazar en terrenos difíciles, el basenji necesita, como mínimo, una hora diaria de ejercicio y puede resistir más si se lo puedes ofrecer. Aunque no es fácil de adiestrar, es aconsejable hacer participar al basenji en algún tipo de deporte canino para mantener el cuerpo y la mente sanos. Desconocen lo que es una carretera y les cuesta orientarse en ella, por lo que hay que tomar precauciones cuando se ejercite cerca del tráfico.",
-      "nutricion": "Los perros pequeños tienen un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Con un estómago tan pequeño, esto implica que deben comer poco pero a menudo."
-    },
-    {
       "id": 3,
       "raza": "Pastor de Antolia",
       "des": "Es un perro enorme similar al mastín con una fuere constitución. Es una raza antigua que desciende del Mastín y de otros perros pastores de Oriente Medio. Altos, atléticos y fuertes, protegían a sus rebaños de depredadores tan feroces como los osos y los lobo",

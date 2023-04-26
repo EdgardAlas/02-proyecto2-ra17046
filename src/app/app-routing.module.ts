@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SkeletonComponent } from '@layout/skeleton/skeleton.component';
 import { NotFoundComponent } from '@modules/not-found/not-found.component';
+import { FormularioComponent } from '@shared/formulario/formulario.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
           import('@modules/mascotas/mascotas.module').then(
             (m) => m.MascotasModule
           ),
+      },
+      {
+        path: 'formulario',
+        component: FormularioComponent,
       },
     ],
   },
