@@ -11,6 +11,7 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { NotFoundComponent } from './modules/not-found/not-found.component';
 import { ToastrModule } from 'ngx-toastr';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [

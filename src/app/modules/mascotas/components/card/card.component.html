@@ -1,7 +1,7 @@
 <div class="d-flex p-2 m-2">
   <div class="card card-mascota">
     <img
-      [src]="obj.img"
+      [src]="obj.img | imagenEmpty : 'mascota'"
       alt=""
       class="card-img-top col-img bg-info bg-opacity-25"
     />

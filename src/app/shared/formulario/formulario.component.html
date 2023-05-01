@@ -86,6 +86,12 @@
                 [class]="esCampoValido('genero')"
               />
               <label for="genero" class="form-check-label">Hombre</label>
+              <div class="invalid-feedback">
+                <span
+                  *ngIf="formularioGeneral.get('genero')?.errors?.['required']"
+                  >&nbsp;</span
+                >
+              </div>
             </div>
 
             <div class="form-check form-check-inline m-3">
@@ -96,13 +102,13 @@
                 formControlName="genero"
                 [class]="esCampoValido('genero')"
               />
-              <label for="genero" class="form-check-label">Mujher</label>
-            </div>
-            <div class="invalid-feedback">
-              <span
-                *ngIf="formularioGeneral.get('genero')?.errors?.['required']"
-                >Requiere el genero</span
-              >
+              <label for="genero" class="form-check-label">Mujer</label>
+              <div class="invalid-feedback">
+                <span
+                  *ngIf="formularioGeneral.get('genero')?.errors?.['required']"
+                  >Requiere el genero</span
+                >
+              </div>
             </div>
           </div>
 

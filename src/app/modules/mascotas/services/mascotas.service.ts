@@ -61,4 +61,15 @@ export class MascotasService {
   eliminarMascota(id: number) {
     return this.httpClient.delete(environment.baseUrl + `/mascotas/${id}`);
   }
+
+  nuevaMascota(mascota: IMascota) {
+    return this.httpClient.post(environment.baseUrl + `/mascotas`, mascota);
+  }
+
+  editarMascota(mascota: IMascota) {
+    return this.httpClient.put(
+      environment.baseUrl + `/mascotas/${mascota.id}`,
+      mascota
+    );
+  }
 }

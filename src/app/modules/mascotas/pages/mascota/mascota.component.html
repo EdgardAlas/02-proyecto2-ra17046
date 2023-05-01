@@ -14,7 +14,11 @@
             <small> / de {{ mascota.origen }}</small>
           </h1>
           <br />
-          <img [src]="mascota.img" alt="" class="img" />
+          <img
+            [src]="mascota.img | imagenEmpty : 'mascota'"
+            alt=""
+            class="img"
+          />
         </div>
         <div class="col col-sm-6">
           <h1>
@@ -26,10 +30,17 @@
           <p>{{ mascota.salud }}</p>
           <p>{{ mascota.ejercicio }}</p>
           <p>{{ mascota.nutricion }}</p>
-          <br />
-          <button class="btn btn-success m-2" (click)="regresar()">
-            <i class="bi bi-backspace"></i>
-          </button>
+          <hr />
+          <div class="form-group row">
+            <div class="form-group col-md-1">
+              <button class="btn btn-success" (click)="regresar()">
+                <i class="bi bi-backspace"></i>
+              </button>
+            </div>
+            <div class="form-grup col-md-3">
+              <app-nuevo leyenda="Editar" [mascota]="mascota"></app-nuevo>
+            </div>
+          </div>
         </div>
       </div>
     </div>
